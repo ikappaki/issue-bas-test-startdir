@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "issue-bas-test-rootdir"
+version = "0.1.0"
+description = ""
+authors = ["ikappaki <ikappaki@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "issue_bas_test_rootdir", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+basilisp = "^0.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

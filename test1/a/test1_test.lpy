@@ -1,0 +1,6 @@
+(ns test1.a.test1-test
+  (:require
+   [basilisp.test :refer [deftest is]]))
+
+(deftest the-test1-test
+  (is (= 5 5)))

@@ -1,0 +1,11 @@
+(ns a.test2-test
+  (:require [basilisp.test :refer [deftest is]]))
+
+#_(throw (python/Exception sys/path))
+;; => test2/ is in the sys.path
+
+#_(println :test2)
+;; NameError: name 'basilisp_core' is not defined
+
+(deftest a-test2-test
+  (is (= 7 7)))
