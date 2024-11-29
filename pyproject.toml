@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "issue-bas-test-rootdir"
+name = "issue-bas-test-startdir"
 version = "0.1.0"
 description = ""
 authors = ["ikappaki <ikappaki@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "issue_bas_test_rootdir", from = "src"}]
+packages = [{include = "issue_bas_test_startdir", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

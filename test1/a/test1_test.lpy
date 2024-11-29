@@ -3,4 +3,4 @@
    [basilisp.test :refer [deftest is]]))
 
 (deftest the-test1-test
-  (is (= 5 5)))
+  (is (= 5 6)))
